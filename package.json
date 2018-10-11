@@ -1,0 +1,22 @@
+{
+  "name": "visualregressionbackstopjs",
+  "version": "1.0.0",
+  "description": "Teste de regressão visual",
+  "main": "index.js",
+  "scripts": {
+    "test": "backstop test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristissouza/visualRegressionbackstopJS.git"
+  },
+  "author": "Cristiane Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristissouza/visualRegressionbackstopJS/issues"
+  },
+  "homepage": "https://github.com/cristissouza/visualRegressionbackstopJS#readme",
+  "devDependencies": {
+    "backstopjs": "^3.7.0"
+  }
+}
