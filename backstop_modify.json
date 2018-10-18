@@ -70,21 +70,8 @@
       "requireSameDimensions": true
     },
     {
-      "onReadyScript": "puppet/onReady.js",
-      "label": "Social_midia",
-      "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "http://127.0.0.1/magazine/index.html",
-      "readySelector": ".fh5co-bio",
-      "delay": 0.5,
-      "postInteractionWait": ".fh5co-bio",
-      "selectors": ["ul#social-midia.fh5co-social"],
-      "selectorExpansion": true,
-      "misMatchThreshold" : 0.1,
-      "requireSameDimensions": true
-    },
-    {
       "onReadyScript": "puppet/loadPage.js",
-      "label": "removing_selector",
+      "label": "Removing_selector",
       "url": "http://127.0.0.1/magazine/index.html",
       "readySelector": ".fh5co-bio",
       "delay": 0.5,
