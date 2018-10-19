@@ -15,7 +15,7 @@ contém apenas o exemplo da estrutura básica criada após iniciar o backstopJS
 ## Principais comandos
 - **backstop test** => Roda os testes e tira as screnshoots
 - **backstop approve** => Aprova as screnshots, criando uma  *baseline* com as screnshoots aprovadas
-- **backstop reference** => Aprova as screenshots quando utilizada-se testes em ambientes diferentes, ex: **dev** x **holol**
+- **backstop reference** => Aprova as screenshots quando utilizada-se testes em ambientes diferentes, ex: **dev** x **homol**
 
 ## Executando cenário e arquivos expecíficos
 
