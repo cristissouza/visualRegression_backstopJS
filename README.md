@@ -18,11 +18,16 @@ contém apenas o exemplo da estrutura básica criada após iniciar o backstopJS
 - **backstop reference** => Aprova as screenshots quando utilizada-se testes em ambientes diferentes, ex: **dev** x **holol**
 
 ## Executando cenário e arquivos expecíficos
+
 **--filter**=nome_do_cenário
+
 **--config**=-nome_arquivo_json
 
 **Ex:** 
 $ backstop test --config=backstop_modify.json --filter=Menu
+
+
+
 
 > Foi utilizado o servidor apache local para rodar o template web, o diretório *magazine* foi colocado para rodar nesse servidor. 
 > Não é obrigatório utilizar o servidor local para que funcione, basta apenas apontar o correto caminho do diretório *magazine*
