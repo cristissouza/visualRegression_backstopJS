@@ -9,7 +9,7 @@ Teste de Regressão Visual
   $ backstop init
   *utiliza esse comando no terminal*
   
-O arquivo que contém os cenários de testes é o **backstop_modify.json**, no arquivo *backstop.json* 
+O arquivo que contém os cenários de testes é o **backstop_modify.json**, no arquivo **backstop.json**  
 contém apenas o exemplo da estrutura básica criada após iniciar o backstopJS
 
 ## Principais comandos
