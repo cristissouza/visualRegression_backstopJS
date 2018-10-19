@@ -1,11 +1,11 @@
 # Visual Regression Testing- backstopJS
 Teste de Regressão Visual
 
-#Instalação do BackstopJS
+# Instalação do BackstopJS
 
   $ npm install -g backstopjs
   
-#Iniciando o backstopjs
+# Iniciando o backstopjs
   $ backstop init
   *utiliza esse comando no terminal*
   
