@@ -31,7 +31,7 @@ $ backstop test --config=backstop_modify.json --filter=Menu
 
 > Foi utilizado o servidor apache local para rodar o template web. O diretório *magazine* foi colocado para rodar nesse servidor. 
 
-> Não é obrigatório utilizar o servidor local para que funcione, basta apenas apontar o correto caminho do diretório *magazine*
-*Ex: './magazine/index.html'* deve ser alterado no arquivo backsto_modify.json, para os elementos **url** e **referenceUrl**
-caso não use o servidor.
+> Não é obrigatório utilizar o servidor local para que funcione, basta apenas apontar o correto caminho do diretório **magazine**
+
+**Ex**: *'./magazine/index.html'* deve ser alterado no arquivo backsto_modify.json, para os elementos **url** e **referenceUrl** caso não use o servidor.
 
