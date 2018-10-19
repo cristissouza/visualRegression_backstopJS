@@ -1,18 +1,18 @@
-# Visual Regression Testing- backstopJS
+# Visual Regression Testing - backstopJS
 Teste de Regressão Visual
 
-# Instalação do BackstopJS
+## Instalação do BackstopJS
 
   $ npm install -g backstopjs
   
-# Iniciando o backstopjs
+## Iniciando o backstopjs
   $ backstop init
   *utiliza esse comando no terminal*
   
 O arquivo que contém os cenários de testes é o **backstop_modify.json**, no arquivo *backstop.json* 
 comtém apenas o exemplo da estrutura básica criada após iniciar o backstopJS
 
-#Principais comandos
+## Principais comandos
 - **backstop test** => Roda os testes e tira as screnshoots
 - **backstop approve** => Aprova as screnshots, criando uma  *baseline* com as screnshoots aprovadas
 - **backstop reference** => Aprova as screenshots quando utilizada-se testes em ambientes diferentes, ex: **dev** x **holol**
