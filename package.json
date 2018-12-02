@@ -4,7 +4,9 @@
   "description": "Teste de regressão visual",
   "main": "index.js",
   "scripts": {
-    "test": "backstop test"
+    "test": "backstop test",
+    "appove": "backstop approve",
+    "reference": "backstop reference"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,7 @@
   },
   "homepage": "https://github.com/cristissouza/visualRegressionbackstopJS#readme",
   "devDependencies": {
-    "backstopjs": "^3.7.0",
+    "backstopjs": "^3.8.5",
     "npm": "^6.4.1"
   }
 }
