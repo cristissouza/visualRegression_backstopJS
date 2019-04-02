@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/cristissouza/visualRegressionbackstopJS.svg?branch=master)](https://travis-ci.com/cristissouza/visualRegressionbackstopJS)
+
 # Visual Regression Testing - backstopJS
 Teste de Regressão Visual
 
