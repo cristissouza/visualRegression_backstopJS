@@ -3,31 +3,51 @@ report({
   "tests": [
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_About_me_0_fh5co-bio_0_iphone_8.png",
-        "test": "../bitmaps_test/20181016-123144/backstop_default_About_me_0_fh5co-bio_0_iphone_8.png",
-        "selector": ".fh5co-bio",
-        "fileName": "backstop_default_About_me_0_fh5co-bio_0_iphone_8.png",
-        "label": "About_me",
+        "reference": "../bitmaps_reference/backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
+        "test": "../bitmaps_test/20190402-172909/backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_BackstopJS_Homepage_0_document_0_phone.png",
+        "label": "BackstopJS Homepage",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
-        "engineErrorMsg": "waiting for selector \".fh5co-bio\" failed: timeout 30000ms exceeded",
-        "error": "Reference file not found /Users/cristiane.dos.souza/Documents/VisualRegression-apresentacao/visualRegressionbackstopJS/backstop_data/bitmaps_reference/backstop_default_About_me_0_fh5co-bio_0_iphone_8.png"
+        "url": "https://garris.github.io/BackstopJS/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_About_me_0_fh5co-bio_1_desktop.png",
-        "test": "../bitmaps_test/20181016-123144/backstop_default_About_me_0_fh5co-bio_1_desktop.png",
-        "selector": ".fh5co-bio",
-        "fileName": "backstop_default_About_me_0_fh5co-bio_1_desktop.png",
-        "label": "About_me",
+        "reference": "../bitmaps_reference/backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20190402-172909/backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_BackstopJS_Homepage_0_document_1_tablet.png",
+        "label": "BackstopJS Homepage",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
-        "engineErrorMsg": "waiting for selector \".img-responsive\" failed: timeout 30000ms exceeded",
-        "error": "Reference file not found /Users/cristiane.dos.souza/Documents/VisualRegression-apresentacao/visualRegressionbackstopJS/backstop_data/bitmaps_reference/backstop_default_About_me_0_fh5co-bio_1_desktop.png"
+        "url": "https://garris.github.io/BackstopJS/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ],
   "id": "backstop_default"
