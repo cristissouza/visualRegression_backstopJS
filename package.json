@@ -20,6 +20,6 @@
   "homepage": "https://github.com/cristissouza/visualRegressionbackstopJS#readme",
   "devDependencies": {
     "backstopjs": "^3.8.5",
-    "npm": "^6.4.1"
+    "npm": "^6.14.6"
   }
 }
